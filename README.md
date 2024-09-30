@@ -46,6 +46,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 * Username: Your desired username
 * Email: A valid email address
+* Contect: A valid Contact Number
 * Password: A strong password
 
 Once registered, you can log in to your account.

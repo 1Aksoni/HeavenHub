@@ -108,7 +108,11 @@ const ListingPage = () => {
   const handleSearchChange = (event) => {
     setFilter(event.target.value);
   };
-
+  const handleViewDetails = (property) => {
+    alert(
+      `Property: ${property.title}\n\nDescription: ${property.description}\n\nPrice: $${property.price.toLocaleString()}`
+    );
+  };
   return (
     <div>
       <Header />
@@ -204,12 +208,12 @@ const ListingPage = () => {
                 <p className="text-gray-600">{property.location}</p>
                 <p className="text-gray-800 font-semibold">{property.price}</p>
                 <p className="mt-2 text-gray-500">{property.description}</p>
-                <Link
-                  to={`/api/property/${property.id}`}
-                  className="mt-4 inline-block text-blue-600 hover:underline"
+                <button
+                  className="mt-2 bg-blue-600 text-white p-2 rounded"
+                  onClick={() => handleViewDetails(property)} // Trigger alert with property details
                 >
                   View Details
-                </Link>
+                </button>
               </div>
             </div>
           ))}

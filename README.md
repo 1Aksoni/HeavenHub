@@ -62,10 +62,10 @@ To log in, enter your registered username and password on the login page. After 
 * Password: demo1234
 ## Note
 
-Please note that not all functionalities are completed, and I am actively working on additional features. The application is currently deployed on Vercel and can be accessed at [HeavenHub Vercel](https://your-vercel-url).
+Please note that not all functionalities are completed, and I am actively working on additional features. The application is currently deployed on Vercel and can be accessed at [HeavenHub Vercel](https://heven-hub-frontend.vercel.app/).
 
 
 ## Deployment Link
 
-You can access the live application at [HeavenHub Vercel](https://your-vercel-url).
+You can access the live application at [HeavenHub Vercel](https://heven-hub-frontend.vercel.app/).
 

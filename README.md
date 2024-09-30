@@ -28,7 +28,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/heavenhub.git
+   git clone https://github.com/1Aksoni/HevenHub.git
 
 2. Navigate to the project directory:
    ```bash
